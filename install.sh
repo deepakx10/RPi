@@ -22,6 +22,7 @@ cp app/bin/* /bin/
 #Copy any config to /etc dir
 cp eula.txt /etc/vespa/
 cp version /etc/vespa/
+cp trustid-x3-root.pem /etc/vespa/
 cp vespa.local /etc/vespa/config/
 	
 echo "Installation complete"
